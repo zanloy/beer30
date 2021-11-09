@@ -1,0 +1,6 @@
+# Local environment
+.env
+# Python cache
+__pycache__
+# vi/vim/nvim swap files
+*.swp

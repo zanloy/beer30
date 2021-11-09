@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+name = "pypi"
+
+[requires]
+python_version = "3.8.10"
+
+[packages]
+python-dotenv = ">=0.19.0"
+python-json-logger = ">=2.0.2"
+slack-bolt = ">=1.8.0"
+slack-sdk = "*"
+websockets = ">=9.1"
+pyyaml = "*"
+aiohttp = "*"
+fastapi = "*"
+hypercorn = "*"
+
+[dev-packages]
+coverage = "*"
+docker = "*"
